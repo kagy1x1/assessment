@@ -11,6 +11,7 @@ assessmentButton.onclick = () => {
     return;
   }
   //診断結果表示エリアの作成
+  resultDivision.innerText = '';
   // headerDivision の作成
   const headerDivision = document.createElement('div');
   headerDivision.setAttribute('class', 'card-header text-bg-primary');
